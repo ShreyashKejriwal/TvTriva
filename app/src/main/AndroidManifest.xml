@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dell.tvserieslovers">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/download"
+        android:label="Quiz Series"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".got1"></activity>
+        <activity android:name=".got2"></activity>
+        <activity android:name=".got3"></activity>
+        <activity android:name=".got4"></activity>
+        <activity android:name=".got5"></activity>
+        <activity android:name=".got6"></activity>
+        <activity android:name=".got7"></activity>
+        <activity android:name=".got8"></activity>
+        <activity android:name=".got9"></activity>
+        <activity android:name=".got10"></activity>
+        <activity android:name=".shuffle"></activity>
+        <activity android:name=".shuffle2"></activity>
+        <activity android:name=".end"></activity>
+    </application>
+
+</manifest>

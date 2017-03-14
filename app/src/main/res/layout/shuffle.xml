@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/qaz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20sp"
+        android:text="Game of Thrones:"
+        android:textSize="35dp"
+       />
+    <TextView
+        android:id="@+id/gr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Game Rules :"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_below="@+id/qaz"/>
+    <TextView
+        android:id="@+id/ra"
+        android:padding="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Right Answer = +1"
+        android:layout_below="@+id/gr"
+        android:textSize="30dp"/>
+    <TextView
+        android:id="@+id/wa"
+        android:padding="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. Wrong Answer = -1"
+        android:layout_below="@+id/ra"
+        android:textSize="30dp"/>
+    <TextView
+        android:padding="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. If Times Up, Quiz ends."
+        android:layout_below="@+id/wa"
+        android:textSize="30dp"/>
+    <Button
+        android:id="@+id/shu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Start the quiz"
+        android:textAllCaps="true" />
+
+
+</RelativeLayout>

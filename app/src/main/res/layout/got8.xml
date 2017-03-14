@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.tvserieslovers.got8">
+    <ImageView
+        android:id="@+id/mchay"
+        android:layout_width="900dp"
+        android:layout_height="650dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/dae"/>
+
+    <TextView
+        android:id="@+id/got"
+        android:padding="40dp"
+        android:textSize="25dp"
+        android:text="Game of Thrones"
+        android:textColor="#eaf7c7"
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/q"
+        android:paddingLeft="25dp"
+        android:paddingRight="40dp"
+        android:textSize="25dp"
+        android:text="Question :"
+        android:textColor="#eaf7c7"
+        android:layout_below="@+id/got"
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/qu"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:textSize="25dp"
+        android:textColor="#eaf7c7"
+        android:layout_below="@+id/q"
+        android:text="Who was the father of Daenerys Targaryen?"
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:id="@+id/l"
+        android:paddingTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ll">
+        <Button
+            android:id="@+id/st"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Viserys Targaryen"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/mc"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Rhaegar Targaryen"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginBottom="50dp"
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:id="@+id/cl"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Aerys II Targaryen"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/noa"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Aerys I Targaryen"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_countdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="#FFFF4444"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        />
+
+
+</RelativeLayout>

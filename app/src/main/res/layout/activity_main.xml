@@ -1,0 +1,131 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        tools:context="com.example.dell.tvserieslovers.MainActivity">
+        <ImageView
+            android:id="@+id/g"
+            android:layout_width="900dp"
+            android:layout_height="650dp"
+            android:scaleType="centerCrop"
+            />
+
+        <TextView
+            android:id="@+id/sl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="Series Lover?"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/statement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sl"
+            android:padding="10sp"
+            android:textSize="25dp"
+            android:textColor="#eaf7c7"
+            android:text="Select favourite one and answer:"
+            android:textStyle="italic"/>
+        <Button
+            android:id="@+id/got"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="Game of Thrones"
+            android:textColor="#FFFFFF"
+            android:background="#80000000"
+            android:layout_below="@id/statement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/arrow"
+            android:text="Arrow"
+            android:textColor="#FFFFFF"
+            android:background="#80000000"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_below="@id/got"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/bb"
+            android:text="Breaking Bad"
+            android:textColor="#FFFFFF"
+            android:background="#80000000"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_below="@id/arrow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/sh"
+            android:text="Shrelock"
+            android:textColor="#FFFFFF"
+            android:background="#80000000"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_below="@id/bb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/flash"
+            android:text="The Flash"
+            android:textColor="#FFFFFF"
+            android:background="#80000000"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_below="@id/sh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/hoc"
+            android:text="House of Cards"
+            android:textColor="#FFFFFF"
+            android:background="#80000000"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_below="@id/flash"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/qc"
+            android:text="Quantico"
+            android:textColor="#FFFFFF"
+            android:background="#80000000"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_below="@id/hoc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/suits"
+            android:text="Suits"
+            android:textColor="#FFFFFF"
+            android:background="#80000000"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_below="@id/qc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/gotham"
+            android:text="Gotham"
+            android:textColor="#FFFFFF"
+            android:background="#80000000"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_below="@id/suits"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+    </RelativeLayout>
+</ScrollView>
